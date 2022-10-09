@@ -1,0 +1,7 @@
+git fetch
+git pull origin master
+
+git add -A
+git commit -m "레벨2풀기_추가"
+git status
+git push
