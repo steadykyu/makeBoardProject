@@ -14,8 +14,8 @@ import static java.util.stream.Collectors.toSet;
 @Entity
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED) // 3
-public class Member extends EntityDate { // 5
-
+public class Member { // 5
+// extends EntityDate
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "member_id")
     private Long id;
