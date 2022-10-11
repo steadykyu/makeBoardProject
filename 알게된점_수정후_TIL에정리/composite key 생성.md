@@ -25,7 +25,6 @@ JPA에서 Primary Key가 단일 키 일때는 @ID annotation으로 쉽게 가능
 ```
 Process 'command 'C:/Program Files/Java/jdk-11.0.15/bin/java.exe'' finished with non-zero exit value 1
 ```
-
 그러므로 로컬에 H2를 설치한 Github - JpaStudy repository에서 작업했다.
 
 # @Idclass
