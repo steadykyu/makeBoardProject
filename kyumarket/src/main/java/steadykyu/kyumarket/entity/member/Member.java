@@ -4,6 +4,7 @@ package steadykyu.kyumarket.entity.member;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import steadykyu.kyumarket.entity.common.EntityDate;
 
 import javax.persistence.*;
 import java.util.List;
@@ -14,8 +15,7 @@ import static java.util.stream.Collectors.toSet;
 @Entity
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED) // 3
-public class Member { // 5
-// extends EntityDate
+public class Member extends EntityDate { // 5
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "member_id")
     private Long id;
